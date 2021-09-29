@@ -1,0 +1,217 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+}
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+.heading {
+    text-transform: uppercase;
+    margin-top: 43px;
+}
+.logo {
+    display: inline-block;
+    font-size: 30px;
+}
+.logo::first-letter {
+    color: #55A290;
+    font-weight: bold;
+}
+.menu {
+    display: inline-block;
+    float: right;
+}
+.menu li{
+    display: inline;
+    margin-right: 30px;
+    font-family: "Roboto Light", sans-serif;
+}
+.menu a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+}
+a> span {
+    color: #1ABC9C;
+}
+
+.title {
+    background: url(../img/img1.png) no-repeat center top / cover;
+    padding-bottom: 284px;
+    margin-top: 39px;
+    font-family: "Roboto Light", sans-serif;
+    color: #ffff;
+    text-align: center;
+    text-transform: uppercase;
+}
+h1 {
+    font-size: 50px;
+    margin: 15px;
+}
+.titles p {
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: left;
+    margin-left: 20px;
+}
+.titles {
+    padding-top: 180px;
+    display: inline-block;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.button{
+    width: 100px;
+    height: 100px;
+    background-color: #1ABC9C;
+    opacity: 0.9;
+    border: none;
+    display: inline-block;
+    color: white;
+    font-size: 70px;
+    text-decoration: none;
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+.collection {
+    background-color: #E9F0FD;
+    padding-bottom: 100px;
+}
+
+h2 {
+    font-family: "Roboto Light", sans-serif;
+    color: #515151;
+    font-size: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 102px;
+}
+
+.border {
+    border-bottom: 7px solid #1ABC9C;
+    width: 165px;
+    font-weight: bold;
+    margin: 31px auto;
+}
+
+img {
+    width: 247px;
+    height: 260px;
+    margin-top: 75px;
+}
+.icons {
+    width: 42px;
+    height: 42px;
+    display: inline-block;
+    padding-left: 23px;
+}
+.icons:hover {
+    border: 1px solid #1ABC9C;
+    background: #1ABC9C;
+}
+.select {
+    width: 42px;
+    height: 42px;
+    display: inline-block;
+    margin-top: 0;
+    padding-top: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.window {
+    width: 228px;
+    height: 215px;
+    background-color:rgba(115, 115, 115, 0.4);
+    position: absolute;
+    top: 24%;
+    left: 4%;
+    display: none;
+}
+.image {
+    position: relative;
+}
+.image:hover .window {
+    display: block;
+}
+.cart {
+    position: absolute;
+    left: 90px;
+    bottom: 45px;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.add-to-cart {
+    border: 1px solid #fff ;
+    width: 200px;
+    margin-left: 12px;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.add-to-cart:hover {
+    border: 1px solid #1ABC9C;
+    background: #1ABC9C;
+}
+.tshirt {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+}
+.name {
+    width: 180px;
+    height: 30px;
+    background-color: #323232;
+    padding-top: 10px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 87%;
+
+}
+.price {
+    width: 41px;
+    height: 30px;
+    background-color: #8C8C8C;
+    padding-left: 8px;
+    padding-top: 10px;
+    position: absolute;
+    top: 87%;
+    left: 80%;
+}
+.catalog-1, .catalog-2, .catalog-3, .catalog-4 {
+    position: relative;
+}
+.catalog-1:hover .name, .catalog-2:hover .name, .catalog-3:hover .name,.catalog-4:hover .name  {
+    background: #1ABC9C;
+}
+.catalog-1:hover .price, .catalog-2:hover .price, .catalog-3:hover .price, .catalog-4:hover .price {
+    background: #7FD9C7;
+}
+
+.wrapper {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+footer {
+    background: #323232;
+}
+.footer-menu {
+    text-align: center;
+    padding-top: 39px;
+    padding-bottom: 33px;
+    font-size: 16px;
+    color: white;
+}
+span {
+    color: #1ABC9C;
+}
